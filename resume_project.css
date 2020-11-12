@@ -1,0 +1,487 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+
+.social-icons li a i {
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+section{
+    width:100%;
+/*     height:75vh; */
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+/* common margin classes*/
+.mb75px{
+    margin-bottom:75px;
+}
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+section:nth-child(2n){
+    background-color:#EFEFEF;
+}
+section:nth-child(2n+1){
+    background-color:white;
+}
+
+/*section header section*/
+.section_header{
+    
+    width:auto;
+    padding: 20px 10px 20px;
+    margin:10px auto;
+    font-weight:100;
+    margin-bottom:30px;
+   
+    
+}
+.section_header span{
+    color:#2857a4;
+    font-size:40px;
+    display:inline-block;
+    padding-top:10px;
+    margin-right:0.5rem;
+}
+/*skills section*/
+
+
+.skill_display{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:70%
+}
+
+.skill_progress{
+    width:9rem;
+    height:1.8rem;
+    background-color:lightgrey;
+    border-radius:0.8rem;
+/*     border:2px solid white; */
+    box-shadow:0px 2px 2px 0px grey  inset;
+    margin:26px;
+    
+    
+}
+
+
+.skill_name span{
+    color:white;
+    font-size:0.9rem;
+    margin-left:10px;
+    position:absolute;
+    margin-top:2px;
+   
+    
+   
+    
+}
+.skill_progress>div{
+    border-radius:20px 0px 0px 20px ;
+}
+
+/* portfolio */
+
+.portfolio_display{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    width:70%
+/*     max-height:75vh; */
+}
+
+
+
+
+.portfolio_name {
+    height:200px;
+    width:200px;
+    margin:20px;
+   
+}
+.portfolio_name span img{
+    height:200px;
+    width:200px;
+}
+
+/* div hovering effect */
+
+
+/* percentage class*/
+.ninty_percent{
+    width:90%;
+    height:inherit;
+    background-color:#EC4D1C;
+
+}
+
+.eighty_percent{
+    width:80%;
+    height:inherit;
+    background-color:#93738C;
+}
+
+
+
+
+.sixty_percent{
+    width:60%;
+    height:inherit;
+    background-color:#2857A4;
+
+}
+
+.fifty_percent{
+    width:50%;
+    height:inherit;
+    background-color:#0B8176;
+
+}
+
+/* contact section */
+
+#contact{
+    background:linear-gradient(60deg ,#2857a4,#403066);
+}
+
+ #contact span {
+    color:white;
+}
+ 
+.contact_body{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    width:70%
+    
+}
+
+.contact_form{
+/*     border:2px solid red; */
+    width:400px; 
+    height:auto;  
+    
+}
+
+.contact_add{
+/*     border: 2px solid blue; */
+    width:500px; 
+    height:auto; 
+    font-size:
+/*     margin:-10px; */
+/*     padding-bottom:100px; */
+    
+}
+
+form input {
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+/*   margin-bottom:10px;   */
+/*     margin:40px; */
+    padding:5px;
+  outline: none;
+  width:500px;  
+    
+}
+
+form button {
+    text-align:center;
+    display: block;
+    margin: 0 auto;
+    color:white;
+    padding:6px;
+    font-weight:bold;
+    font-size:1rem;
+    background-color:#2857a4;
+/*     border-color:white; */
+    
+}
+#msg{
+    margin:20px 0px 30px 0px ;
+    padding:30px 0px 50px 7px ;
+}
+
+#contact_para{
+
+    text-align: justify;
+    color: white;
+    font-size: 1.1rem;
+    overflow-wrap:break-word;
+
+}
+
+#add_icons span{
+    display:block;
+    margin:5px 0px 5px 0px;
+    font-size:1.1rem;
+    padding:5px;
+}
+
+#my_add{
+    margin:10px;
+}
+
+/* work Experience section */
+
+.timeline{
+    width:70%;
+/*     border:2px solid black; */
+    position:relative;
+   
+}
+
+.timeline_div{
+    width:40%;
+/*     border:1px solid red; */
+/*     margin :1px; */
+    left:3%;
+    position:relative;
+    min-height:200px;
+/*     height:25%; */
+    font-size:0px;
+    
+    
+}
+
+.timeline_div:nth-child(2n+1){
+/*     border:1px solid red; */
+    
+}
+
+.timeline_div:nth-child(2n+1)::before{
+    content:'';
+    width:0.5rem;
+    height:0.5rem;
+    border-radius:50%;
+    position:absolute;
+    background-color:#D3D3D3;
+    right:-19%;
+    top:30%;
+
+    
+    
+    
+
+}
+
+
+
+.timeline_div:nth-child(2n){
+/*     border:1px solid blue; */
+    left:55%;
+}
+
+.timeline_div:nth-child(2n)::after{
+    content:'';
+    width:0.5rem;
+    height:0.5rem;
+    border-radius:50%;
+    position:absolute;
+    background-color:#D3D3D3;
+    left:-13.7%;
+    top:28%;
+
+    
+    
+    
+
+}
+
+.timeline_divider{
+    width:0;
+    border:1px dashed #94D3FD;
+    left:50%;
+    top:8%;
+    position:absolute ;
+    height:75%;
+}
+.animation{
+    position:sticky;
+    transform:rotate(90deg);
+    top:30%;
+    color:#2857A4;
+    
+}
+
+.work_logo{
+/*      border: 1px solid red;  */
+    margin:0px;
+    width:35%;
+    height:100px;
+}
+
+.work_logo img{
+    width:80px;
+    height:80px;
+    
+
+
+
+    
+}
+
+.designation_heading{
+/*      border: 1px solid red;  */
+    margin-right:-30px;
+    width:64.5%;
+    height:100px;
+    text-align:right;
+/*     font-size:1.8rem; */
+
+    
+
+    
+}
+
+.designation_body{
+    padding: 0px;
+    width: 100%;
+    text-align: justify;
+    color: grey;
+    line-height: 25px;
+    font-size: 1.1rem;
+    margin:auto ;
+    position:relative;
+    display:block; 
+/*     border:1px solid green; */
+    height:200px;
+}
+
+.inline{
+   display: inline-block; 
+  
+/*     margin-right:-4px; */
+   
+    
+} 
+
+.block{
+    display:block;
+}
+.designation{
+    color:#2857a4;
+    font-weight:510;
+    padding:4px;
+    font-size:1.9rem;
+}
+
+
+.company{
+    color:orange;
+    font-size:1.6rem;
+}
+
+.duration{
+    color:darkgrey;
+    font-size:1.3rem
+}
+
+
